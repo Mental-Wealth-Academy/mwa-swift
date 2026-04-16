@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D761F11A456663335988561 /* WeekReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DD62A80B11DDBA35DECB29 /* WeekReading.swift */; };
+		1EDEF2D3304D905407F39134 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50978DCB2140010ADF7CF840 /* LoginView.swift */; };
+		20E3701648EBFCB278CEB554 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB4A7CFED449FEF36982C3 /* AppTabView.swift */; };
+		24CD2D31A4D1B6AC9F29B6A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9C1B3A369AF3BEEB6A188 /* Colors.swift */; };
+		2D85F64399A51C4558CE1EE7 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F73439CCF8C5B3A415C5A6 /* Season.swift */; };
+		3341421081895592DF23169B /* DailyNotesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DA320B43C0EFE4C0BD745 /* DailyNotesCardView.swift */; };
+		61B9B0EF3CD1BE6F7A26BA16 /* PrivySDK in Frameworks */ = {isa = PBXBuildFile; productRef = EA213EB2323191AB73C15CAD /* PrivySDK */; };
+		722331EB1F925663FD74AAE1 /* MentalWealthAcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A2918129D50748316B2C4 /* MentalWealthAcademyApp.swift */; };
+		7DBD1729699D4395552F4680 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAC6AA2645E744193679F4 /* APIClient.swift */; };
+		83941D13A103DC971B2F3A65 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E588631BC0ABAEC4DBD30 /* PaywallView.swift */; };
+		8A757B9100FC426327472897 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E210DCC41AE3A65ACD65EB /* User.swift */; };
+		903874F163FBD6E435483197 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4379E4D34AEDA9E0163C4D9 /* Endpoints.swift */; };
+		A9E979B031AA3F655D0C2964 /* StreakCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1283497EF773F5F11CACCAC2 /* StreakCalendarView.swift */; };
+		AFA96BCB48A00F89ACEA843A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7265227AD8326E15B1B4366A /* AuthManager.swift */; };
+		B9565E4F888323033EF7215B /* ReadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BB8A46D53B072CAF7CB1B /* ReadingCardView.swift */; };
+		BC3CB32E9439D81D012E3F1E /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8999793E9CA7B071D59F251 /* CourseViewModel.swift */; };
+		CFB477BED38B508CAABBE308 /* CompanionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE52C8F0674F4FCAEF350A /* CompanionViewModel.swift */; };
+		D1632C14629651646F543414 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E54D5E957B249FD5162108 /* Typography.swift */; };
+		D50D570C452A479FDF33CDE5 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B7118078FFF9888FE803 /* MessageBubbleView.swift */; };
+		E10918B0A20E4D7BC7C85398 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1F79F5CE9E6C74ED89222 /* AppHeaderView.swift */; };
+		E6C0ACA7EAA51E68E2D7592C /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F97BB77E95D9F79D6A8BDBE /* CourseView.swift */; };
+		E82ACB68D1D0446AB3C9DE86 /* WeekSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2899A8DCA4CCC0849201A687 /* WeekSelectorView.swift */; };
+		EAC7914FCE0E380EA0D567D3 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179AE6E5D73B71568D2EE4 /* AccountViewModel.swift */; };
+		EC19F10E04B4B466986F547D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6914D4B6E84D837227D7301E /* AccountView.swift */; };
+		EEF336006D7EDD0CE99869DC /* LeaderboardSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5204D0B56B45C57D203BE4 /* LeaderboardSheet.swift */; };
+		FB60CF6D43F4319738F73ADE /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711FA100179A4723E62D4728 /* CompanionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1283497EF773F5F11CACCAC2 /* StreakCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalendarView.swift; sourceTree = "<group>"; };
+		19F73439CCF8C5B3A415C5A6 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		1B7BB8A46D53B072CAF7CB1B /* ReadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingCardView.swift; sourceTree = "<group>"; };
+		2899A8DCA4CCC0849201A687 /* WeekSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSelectorView.swift; sourceTree = "<group>"; };
+		2C5204D0B56B45C57D203BE4 /* LeaderboardSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardSheet.swift; sourceTree = "<group>"; };
+		45E210DCC41AE3A65ACD65EB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		50978DCB2140010ADF7CF840 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		50E54D5E957B249FD5162108 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		5CCB4A7CFED449FEF36982C3 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		604E588631BC0ABAEC4DBD30 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		6914D4B6E84D837227D7301E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		711FA100179A4723E62D4728 /* CompanionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionView.swift; sourceTree = "<group>"; };
+		7265227AD8326E15B1B4366A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		7B0DA320B43C0EFE4C0BD745 /* DailyNotesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyNotesCardView.swift; sourceTree = "<group>"; };
+		8538911F2CE79D839BEDA862 /* MentalWealthAcademy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MentalWealthAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B0B7118078FFF9888FE803 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		8F97BB77E95D9F79D6A8BDBE /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		9ADAC6AA2645E744193679F4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		9C6A2918129D50748316B2C4 /* MentalWealthAcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentalWealthAcademyApp.swift; sourceTree = "<group>"; };
+		9EAE52C8F0674F4FCAEF350A /* CompanionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanionViewModel.swift; sourceTree = "<group>"; };
+		A8999793E9CA7B071D59F251 /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
+		B4379E4D34AEDA9E0163C4D9 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		C1179AE6E5D73B71568D2EE4 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		DCA9C1B3A369AF3BEEB6A188 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E1A1F79F5CE9E6C74ED89222 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
+		F5DD62A80B11DDBA35DECB29 /* WeekReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekReading.swift; sourceTree = "<group>"; };
+		FCD5753E34A0FFEEC1A480B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A116CE2D65DB5EC5607134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B9B0EF3CD1BE6F7A26BA16 /* PrivySDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1296D581203974691D9D2D56 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1283497EF773F5F11CACCAC2 /* StreakCalendarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3275EAFD0593BC1CA61C2785 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7265227AD8326E15B1B4366A /* AuthManager.swift */,
+				50978DCB2140010ADF7CF840 /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		3ADBEEF3B2D53BB0C2A470E8 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6914D4B6E84D837227D7301E /* AccountView.swift */,
+				C1179AE6E5D73B71568D2EE4 /* AccountViewModel.swift */,
+				1296D581203974691D9D2D56 /* Components */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		3EDFDCAF279D3631F5901BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8538911F2CE79D839BEDA862 /* MentalWealthAcademy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FE00BB3320E18727DCD22F5 /* Companion */ = {
+			isa = PBXGroup;
+			children = (
+				711FA100179A4723E62D4728 /* CompanionView.swift */,
+				9EAE52C8F0674F4FCAEF350A /* CompanionViewModel.swift */,
+				F593F760AE7DF212E315BDCD /* Components */,
+			);
+			path = Companion;
+			sourceTree = "<group>";
+		};
+		5634FC6ECDF7198609C60A05 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DCA9C1B3A369AF3BEEB6A188 /* Colors.swift */,
+				50E54D5E957B249FD5162108 /* Typography.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5D706E2BB2CD2527722DDC48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19F73439CCF8C5B3A415C5A6 /* Season.swift */,
+				45E210DCC41AE3A65ACD65EB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EEE4EAEDD6B239DFC17700F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9ADAC6AA2645E744193679F4 /* APIClient.swift */,
+				B4379E4D34AEDA9E0163C4D9 /* Endpoints.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		851EB0F40F16C436468DB588 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5DD62A80B11DDBA35DECB29 /* WeekReading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B4EE7B14170FCB56DEF74FB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7B0DA320B43C0EFE4C0BD745 /* DailyNotesCardView.swift */,
+				2C5204D0B56B45C57D203BE4 /* LeaderboardSheet.swift */,
+				1B7BB8A46D53B072CAF7CB1B /* ReadingCardView.swift */,
+				2899A8DCA4CCC0849201A687 /* WeekSelectorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A67975C64D129208E2E1D7D2 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				8F97BB77E95D9F79D6A8BDBE /* CourseView.swift */,
+				A8999793E9CA7B071D59F251 /* CourseViewModel.swift */,
+				8B4EE7B14170FCB56DEF74FB /* Components */,
+				851EB0F40F16C436468DB588 /* Models */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		AEB0D8B3A7DC69A467013BB0 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E1A1F79F5CE9E6C74ED89222 /* AppHeaderView.swift */,
+				5CCB4A7CFED449FEF36982C3 /* AppTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		AFBB196AB8D8CF3F9F9108E5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FCD5753E34A0FFEEC1A480B3 /* Info.plist */,
+				9C6A2918129D50748316B2C4 /* MentalWealthAcademyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B092F69E575938AFC2BAE831 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6EEE4EAEDD6B239DFC17700F /* API */,
+				5D706E2BB2CD2527722DDC48 /* Models */,
+				5634FC6ECDF7198609C60A05 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B19629DE504598029DEBA80B = {
+			isa = PBXGroup;
+			children = (
+				F76798073022A88D4F3565FF /* Sources */,
+				3EDFDCAF279D3631F5901BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1AC3C0EDE8FC2049F25F81 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				604E588631BC0ABAEC4DBD30 /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		F593F760AE7DF212E315BDCD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				87B0B7118078FFF9888FE803 /* MessageBubbleView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F76798073022A88D4F3565FF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBEEF3B2D53BB0C2A470E8 /* Account */,
+				AFBB196AB8D8CF3F9F9108E5 /* App */,
+				3275EAFD0593BC1CA61C2785 /* Auth */,
+				3FE00BB3320E18727DCD22F5 /* Companion */,
+				A67975C64D129208E2E1D7D2 /* Course */,
+				AEB0D8B3A7DC69A467013BB0 /* Navigation */,
+				BB1AC3C0EDE8FC2049F25F81 /* Paywall */,
+				B092F69E575938AFC2BAE831 /* Shared */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		071CFA816F86A955C48ED897 /* MentalWealthAcademy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC8B22E4A19D8F4A174C1D1E /* Build configuration list for PBXNativeTarget "MentalWealthAcademy" */;
+			buildPhases = (
+				D6C07D1EC821F8785FCFEFE6 /* Sources */,
+				54A116CE2D65DB5EC5607134 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MentalWealthAcademy;
+			packageProductDependencies = (
+				EA213EB2323191AB73C15CAD /* PrivySDK */,
+			);
+			productName = MentalWealthAcademy;
+			productReference = 8538911F2CE79D839BEDA862 /* MentalWealthAcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		511F13705DBD1468779D6B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					071CFA816F86A955C48ED897 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 44334BDF4C2A9073B4E6FCE7 /* Build configuration list for PBXProject "MentalWealthAcademy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B19629DE504598029DEBA80B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A2F32FD1AC461FE712A4DB73 /* XCRemoteSwiftPackageReference "privy-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3EDFDCAF279D3631F5901BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071CFA816F86A955C48ED897 /* MentalWealthAcademy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C07D1EC821F8785FCFEFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DBD1729699D4395552F4680 /* APIClient.swift in Sources */,
+				EC19F10E04B4B466986F547D /* AccountView.swift in Sources */,
+				EAC7914FCE0E380EA0D567D3 /* AccountViewModel.swift in Sources */,
+				E10918B0A20E4D7BC7C85398 /* AppHeaderView.swift in Sources */,
+				20E3701648EBFCB278CEB554 /* AppTabView.swift in Sources */,
+				AFA96BCB48A00F89ACEA843A /* AuthManager.swift in Sources */,
+				24CD2D31A4D1B6AC9F29B6A4 /* Colors.swift in Sources */,
+				FB60CF6D43F4319738F73ADE /* CompanionView.swift in Sources */,
+				CFB477BED38B508CAABBE308 /* CompanionViewModel.swift in Sources */,
+				E6C0ACA7EAA51E68E2D7592C /* CourseView.swift in Sources */,
+				BC3CB32E9439D81D012E3F1E /* CourseViewModel.swift in Sources */,
+				3341421081895592DF23169B /* DailyNotesCardView.swift in Sources */,
+				903874F163FBD6E435483197 /* Endpoints.swift in Sources */,
+				EEF336006D7EDD0CE99869DC /* LeaderboardSheet.swift in Sources */,
+				1EDEF2D3304D905407F39134 /* LoginView.swift in Sources */,
+				722331EB1F925663FD74AAE1 /* MentalWealthAcademyApp.swift in Sources */,
+				D50D570C452A479FDF33CDE5 /* MessageBubbleView.swift in Sources */,
+				83941D13A103DC971B2F3A65 /* PaywallView.swift in Sources */,
+				B9565E4F888323033EF7215B /* ReadingCardView.swift in Sources */,
+				2D85F64399A51C4558CE1EE7 /* Season.swift in Sources */,
+				A9E979B031AA3F655D0C2964 /* StreakCalendarView.swift in Sources */,
+				D1632C14629651646F543414 /* Typography.swift in Sources */,
+				8A757B9100FC426327472897 /* User.swift in Sources */,
+				0D761F11A456663335988561 /* WeekReading.swift in Sources */,
+				E82ACB68D1D0446AB3C9DE86 /* WeekSelectorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		147A800F291B47EFB8B31AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalwealthacademy.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C28386E435050588E2B8AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalwealthacademy.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		407D903C6B513EE2ED3E67CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalwealthacademy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D99F91B9E1A3442841A43C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Sources/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mentalwealthacademy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44334BDF4C2A9073B4E6FCE7 /* Build configuration list for PBXProject "MentalWealthAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99F91B9E1A3442841A43C64 /* Debug */,
+				407D903C6B513EE2ED3E67CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC8B22E4A19D8F4A174C1D1E /* Build configuration list for PBXNativeTarget "MentalWealthAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C28386E435050588E2B8AFD /* Debug */,
+				147A800F291B47EFB8B31AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2F32FD1AC461FE712A4DB73 /* XCRemoteSwiftPackageReference "privy-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/privy-io/privy-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA213EB2323191AB73C15CAD /* PrivySDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2F32FD1AC461FE712A4DB73 /* XCRemoteSwiftPackageReference "privy-ios" */;
+			productName = PrivySDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 511F13705DBD1468779D6B3D /* Project object */;
+}

@@ -1,0 +1,50 @@
+name: MentalWealthAcademy
+options:
+  bundleIdPrefix: com.mentalwealthacademy
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  xcodeVersion: "15"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    ENABLE_PREVIEWS: YES
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    PRODUCT_BUNDLE_IDENTIFIER: com.mentalwealthacademy.app
+    INFOPLIST_FILE: Sources/App/Info.plist
+    DEVELOPMENT_TEAM: ""        # Fill in your Apple Team ID
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1" # iPhone only
+
+targets:
+  MentalWealthAcademy:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+        excludes:
+          - "**/*.md"
+    dependencies:
+      - package: PrivySDK
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mentalwealthacademy.app
+        INFOPLIST_FILE: Sources/App/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+
+packages:
+  PrivySDK:
+    url: https://github.com/privy-io/privy-ios
+    from: "1.0.0"
+
+schemes:
+  MentalWealthAcademy:
+    build:
+      targets:
+        MentalWealthAcademy: all
+    run:
+      config: Debug
+    archive:
+      config: Release
