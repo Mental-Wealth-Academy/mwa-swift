@@ -11,7 +11,7 @@ let package = Package(
         .executableTarget(
             name: "MentalWealthAcademy",
             dependencies: [
-                .product(name: "PrivySDK", package: "privy-ios"),
+                .product(name: "Privy", package: "privy-ios"),
             ],
             path: "Sources",
             resources: [

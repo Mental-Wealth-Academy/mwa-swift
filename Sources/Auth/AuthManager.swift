@@ -1,5 +1,5 @@
 import Foundation
-import PrivySDK
+import Privy
 
 // AuthManager wraps the Privy iOS SDK and exposes a clean interface
 // to the rest of the app via @EnvironmentObject.

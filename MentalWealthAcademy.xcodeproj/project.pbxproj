@@ -13,7 +13,7 @@
 		24CD2D31A4D1B6AC9F29B6A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA9C1B3A369AF3BEEB6A188 /* Colors.swift */; };
 		2D85F64399A51C4558CE1EE7 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F73439CCF8C5B3A415C5A6 /* Season.swift */; };
 		3341421081895592DF23169B /* DailyNotesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0DA320B43C0EFE4C0BD745 /* DailyNotesCardView.swift */; };
-		61B9B0EF3CD1BE6F7A26BA16 /* PrivySDK in Frameworks */ = {isa = PBXBuildFile; productRef = EA213EB2323191AB73C15CAD /* PrivySDK */; };
+		61B9B0EF3CD1BE6F7A26BA16 /* Privy in Frameworks */ = {isa = PBXBuildFile; productRef = 2E6C4E8CBD47F86D7DE7DB25 /* Privy */; };
 		722331EB1F925663FD74AAE1 /* MentalWealthAcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A2918129D50748316B2C4 /* MentalWealthAcademyApp.swift */; };
 		7DBD1729699D4395552F4680 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADAC6AA2645E744193679F4 /* APIClient.swift */; };
 		83941D13A103DC971B2F3A65 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E588631BC0ABAEC4DBD30 /* PaywallView.swift */; };
@@ -23,6 +23,7 @@
 		AFA96BCB48A00F89ACEA843A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7265227AD8326E15B1B4366A /* AuthManager.swift */; };
 		B9565E4F888323033EF7215B /* ReadingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7BB8A46D53B072CAF7CB1B /* ReadingCardView.swift */; };
 		BC3CB32E9439D81D012E3F1E /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8999793E9CA7B071D59F251 /* CourseViewModel.swift */; };
+		BC9B5D05320F71354F050727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188267A39EDD295B00AF2167 /* Assets.xcassets */; };
 		CFB477BED38B508CAABBE308 /* CompanionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE52C8F0674F4FCAEF350A /* CompanionViewModel.swift */; };
 		D1632C14629651646F543414 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E54D5E957B249FD5162108 /* Typography.swift */; };
 		D50D570C452A479FDF33CDE5 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B0B7118078FFF9888FE803 /* MessageBubbleView.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1283497EF773F5F11CACCAC2 /* StreakCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakCalendarView.swift; sourceTree = "<group>"; };
+		188267A39EDD295B00AF2167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19F73439CCF8C5B3A415C5A6 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		1B7BB8A46D53B072CAF7CB1B /* ReadingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingCardView.swift; sourceTree = "<group>"; };
 		2899A8DCA4CCC0849201A687 /* WeekSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSelectorView.swift; sourceTree = "<group>"; };
@@ -70,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B9B0EF3CD1BE6F7A26BA16 /* PrivySDK in Frameworks */,
+				61B9B0EF3CD1BE6F7A26BA16 /* Privy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +193,7 @@
 		AFBB196AB8D8CF3F9F9108E5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				188267A39EDD295B00AF2167 /* Assets.xcassets */,
 				FCD5753E34A0FFEEC1A480B3 /* Info.plist */,
 				9C6A2918129D50748316B2C4 /* MentalWealthAcademyApp.swift */,
 			);
@@ -254,6 +257,7 @@
 			buildConfigurationList = FC8B22E4A19D8F4A174C1D1E /* Build configuration list for PBXNativeTarget "MentalWealthAcademy" */;
 			buildPhases = (
 				D6C07D1EC821F8785FCFEFE6 /* Sources */,
+				4C0838751227286DEC5A04BD /* Resources */,
 				54A116CE2D65DB5EC5607134 /* Frameworks */,
 			);
 			buildRules = (
@@ -262,7 +266,7 @@
 			);
 			name = MentalWealthAcademy;
 			packageProductDependencies = (
-				EA213EB2323191AB73C15CAD /* PrivySDK */,
+				2E6C4E8CBD47F86D7DE7DB25 /* Privy */,
 			);
 			productName = MentalWealthAcademy;
 			productReference = 8538911F2CE79D839BEDA862 /* MentalWealthAcademy.app */;
@@ -304,6 +308,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0838751227286DEC5A04BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9B5D05320F71354F050727 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D6C07D1EC821F8785FCFEFE6 /* Sources */ = {
@@ -543,10 +558,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EA213EB2323191AB73C15CAD /* PrivySDK */ = {
+		2E6C4E8CBD47F86D7DE7DB25 /* Privy */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A2F32FD1AC461FE712A4DB73 /* XCRemoteSwiftPackageReference "privy-ios" */;
-			productName = PrivySDK;
+			productName = Privy;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

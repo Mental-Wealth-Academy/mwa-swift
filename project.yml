@@ -27,7 +27,7 @@ targets:
         excludes:
           - "**/*.md"
     dependencies:
-      - package: PrivySDK
+      - package: Privy
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.mentalwealthacademy.app
@@ -35,7 +35,7 @@ targets:
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
 
 packages:
-  PrivySDK:
+  Privy:
     url: https://github.com/privy-io/privy-ios
     from: "1.0.0"
 
